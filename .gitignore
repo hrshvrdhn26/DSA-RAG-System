@@ -1,0 +1,19 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated project scaffolding
+**/.python-version
+**/pyproject.toml
+**/uv.lock
+**/src/
+
+# Unwanted transcript files
+backend/data/all_transcripts_clean.json
+backend/data/transcript_clean.json
+backend/data/transcript_failures.json
